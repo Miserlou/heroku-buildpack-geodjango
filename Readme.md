@@ -51,6 +51,12 @@ $ git push heroku master
 ... etc.
 ```
 
+# Upgrading
+
+To upgrade an existing project:
+
+    heroku config:add BUILDPACK_URL=git://github.com/Miserlou/heroku-buildpack-geodjango.git
+
 ## Notes
 
 All libraries are stored in the directory `/app/.geodjango`.
